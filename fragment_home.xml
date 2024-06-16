@@ -3,14 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fragment1"
-    tools:context=".Fragment1">
+    tools:context=".fragments.HomeFragment">
 
-
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/hello_blank_fragment1"
-        android:textSize="30dp" />
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Home" />
+</RelativeLayout>
+
 </FrameLayout>
